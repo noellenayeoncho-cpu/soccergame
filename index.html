@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soccer Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="scoreboard">
+        <div class="team">
+            <span class="team-dot player-dot"></span>
+            Player 1
+            <span id="playerScore">0</span>
+        </div>
+
+        <div id="timer">2:00</div>
+
+        <div class="team">
+            <span id="robotScore">0</span>
+            Player 2
+            <span class="team-dot robot-dot"></span>
+        </div>
+    </div>
+
+    <div id="message">Press Start to Play</div>
+
+    <button id="startButton">START GAME</button>
+
+    <div id="controls">Move: WASD or Arrow Keys</div>
+
+    <canvas id="gameCanvas" width="1200" height="700"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>

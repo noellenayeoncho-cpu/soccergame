@@ -56,6 +56,7 @@ const ball = {
     y: CENTER_Y,
     radius: 13,
     vx: 0,
+    `345678`
     vy: 0,
     friction: 0.992,
     bounce: 0.85
